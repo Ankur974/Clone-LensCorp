@@ -15,6 +15,7 @@ const CardContainers = styled(FlexBox)`
   max-width: 70%;
   flex-wrap: wrap;
   gap: 1.5rem;
+  margin-left: 7rem;
 `;
 
 const Card = styled(FlexBox)`

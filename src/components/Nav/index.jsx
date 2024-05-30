@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 import FlexBox from "@common/ui/FlexBox";
-import { Display, H5 } from "@common/ui/Headings";
+import { H5 } from "@common/ui/Headings";
 
 const Navbar = styled(FlexBox)`
   width: 100%;

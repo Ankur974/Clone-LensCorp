@@ -48,7 +48,6 @@ const Card = styled(FlexBox)`
 `;
 
 const CardTitle = styled.div`
-  text-align: center;
   padding: 2rem;
   font-weight: bolder;
   font-size: 1.7rem;
@@ -148,11 +147,13 @@ const index = () => {
           ))}
         </List>
       </Container>
-      <FlexBox width="100%" justify="space-around">
+      <FlexBox width="100%">
         {cardsData.map(card => (
           <Card key={card.id}>
             <CardTitle>{card.title}</CardTitle>
+
             <Image src={card.image} alt={card.title} />
+
             <Description>{card.description}</Description>
           </Card>
         ))}
